@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "876831869083",
+    "firebase_url": "https://hack-my-domain.firebaseio.com",
+    "project_id": "hack-my-domain",
+    "storage_bucket": "hack-my-domain.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:876831869083:android:320f5091cf0c5082",
+        "android_client_info": {
+          "package_name": "fr.hack_my_domain.wifi.hotspot.on.charge"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "876831869083-2b558jhk5j2eoluqf8qqn0l9fdq6dj28.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxTpwTK97ErxVGU-AHWX-dPU3OoB_7_Q4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
