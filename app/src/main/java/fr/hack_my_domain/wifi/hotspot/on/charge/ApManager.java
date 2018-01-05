@@ -9,7 +9,7 @@ import java.lang.reflect.Method;
 
 class ApManager {
 
-    // check whether wifi hotspot on or off
+    // Check whether wifi hotspot on or off
     static boolean isApOn(Context context) {
         WifiManager wifimanager = (WifiManager) context.getSystemService(Context.WIFI_SERVICE);
         try {
@@ -22,7 +22,7 @@ class ApManager {
         return false;
     }
 
-    // toggle wifi hotspot on or off
+    // Toggle wifi hotspot on or off
     static boolean configApState(Context context) {
         WifiManager wifimanager = (WifiManager) context.getSystemService(Context.WIFI_SERVICE);
         try {
@@ -40,4 +40,4 @@ class ApManager {
         }
         return false;
     }
-} // end of class
+}

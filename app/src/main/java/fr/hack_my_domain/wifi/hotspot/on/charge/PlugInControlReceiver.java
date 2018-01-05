@@ -34,15 +34,15 @@ public class PlugInControlReceiver extends BroadcastReceiver {
 
     private boolean startWifiHotspot() {
         /* MainActivity.this */
-        // check Ap state :boolean
-        // change Ap state :boolean
+        // Check Ap state :boolean
+        // Change Ap state :boolean
         return isApOn(myContext) || configApState(myContext);
     }
 
     private boolean stopWifiHotspot() {
         /* MainActivity.this */
-        // check Ap state :boolean
-        // change Ap state :boolean
+        // Check Ap state :boolean
+        // Change Ap state :boolean
         return !isApOn(myContext) || configApState(myContext);
     }
 }

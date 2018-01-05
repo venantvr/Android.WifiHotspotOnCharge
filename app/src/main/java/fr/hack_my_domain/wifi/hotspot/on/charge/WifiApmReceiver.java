@@ -10,7 +10,6 @@ import static android.widget.Toast.makeText;
 public class WifiApmReceiver extends BroadcastReceiver {
     public void onReceive(Context context, Intent intent) {
         String action = intent.getAction();
-
         assert action != null;
         if ("android.net.wifi.WIFI_AP_STATE_CHANGED".equals(action)) {
             checkWifi(context);
